@@ -1,0 +1,35 @@
+body {
+  font-family: "Comic Sans MS", sans-serif;
+  color: #333;
+  background-color: #FF0000; /* Bright red background */
+}
+
+header {
+  background-color: #CC0000; /* Dark red for the header */
+  color: white;
+  border-radius: 8px;
+}
+
+canvas {
+  border: 2px solid #CC0000; /* Dark red border for the canvas */
+  background-color: #f8f9fa;
+}
+
+#score {
+  font-size: 1.5rem;
+  color: #CC0000; /* Dark red for the score */
+}
+
+#startGame {
+  font-family: "Comic Sans MS", sans-serif;
+  background-color: #FF0000; /* Bright red for the button */
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+#startGame:hover {
+  background-color: #CC0000; /* Darker red when hovering */
+}
